@@ -12,3 +12,8 @@ redis.vgsk.online
 
 [user]
 user.vgsk.online
+
+[cart]
+cart.vgsk.online
+
+
