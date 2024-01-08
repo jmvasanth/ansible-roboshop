@@ -58,7 +58,7 @@
 
   - name: Daemon Reload
     ansible.builtin.systemd:
-    daemon_reload: true
+      daemon_reload: true
 
   - name: Copy Mongo repo to yum.repos.d
     ansible.builtin.copy:
