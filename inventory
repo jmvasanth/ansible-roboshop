@@ -9,3 +9,6 @@ web.vgsk.online
 
 [redis]
 redis.vgsk.online
+
+[user]
+user.vgsk.online
