@@ -15,4 +15,15 @@
     ansible.builtin.yum:
       name: redis
       state: installed
-      
+  
+  - name: Allow remote connections to Redis
+    ansible.builtin.replace:
+      path: /etc/redis.conf
+      regexp: '127.0.0.1'
+      replace: '0.0.0.0'
+
+  - name: Start and Enable Redis
+    ansible.builtin.service:
+      name: redis
+      state: started
+      enabled: yes
