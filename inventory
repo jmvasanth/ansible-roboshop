@@ -6,3 +6,6 @@ catalogue.vgsk.online
 
 [web]
 web.vgsk.online
+
+[redis]
+redis.vgsk.online
