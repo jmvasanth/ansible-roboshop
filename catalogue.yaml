@@ -71,7 +71,7 @@
       state: installed
 
   - name: Load Catalogue Data
-    ansible.builtin.command: mongo --host mongodb.vgsk.online </app/schema/catalogue.js
+    ansible.builtin.command: mongo --host mongodb.vgsk.online < /app/schema/catalogue.js
 
   - name: Restart Catalogue
     ansible.builtin.service:
