@@ -22,4 +22,5 @@ mysql.vgsk.online
 [shipping]
 shipping.vgsk.online
 
-
+[rabbitmq]
+rabbitmq.vgsk.online
