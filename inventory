@@ -24,3 +24,6 @@ shipping.vgsk.online
 
 [rabbitmq]
 rabbitmq.vgsk.online
+
+[payment]
+payment.vgsk.online
